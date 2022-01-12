@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "commander": "^8.3.0",
+    "shelljs": "^0.8.4"
+  },
+  "name": "@alu0101227610/gh-repo-rename",
+  "description": "Extension for renaming a repository using GraphQL",
+  "version": "1.2.1",
+  "main": "gh-repo-rename.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "doc": "documentation build index.js -f html -o docs",
+    "serve-doc": "http-server docs/ -o",
+    "push": "npm run doc; git add docs; git commit -am no-message; git push",
+    "publish": "git push origin main; git push publico main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0101227610/gh-repo-rename.git"
+  },
+  "keywords": [
+    "escape",
+    "unescape",
+    "html"
+  ],
+  "author": "Antonella Garcia <alu0101227610@ull.edu.es>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0101227610/gh-repo-rename/issues"
+  },
+  "homepage": "https://github.com/alu0101227610/gh-repo-rename#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "documentation": "*",
+    "mocha": "^9.1.3"
+  }
+}
