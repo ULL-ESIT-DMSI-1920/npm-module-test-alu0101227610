@@ -1,6 +1,9 @@
 {
   "dependencies": {
+    "chalk": "^5.0.0",
     "commander": "^8.3.0",
+    "each-async": "^2.0.0",
+    "indent-string": "^5.0.0",
     "shelljs": "^0.8.4"
   },
   "name": "@alu0101227610/gh-repo-rename",
